@@ -56,7 +56,7 @@ bool ItemInterface::openItem(string name)
 	// empty means success
 	bool result = true;
 
-	// first check if we even have this fucking thing
+	// first check if we even have the named item
 	auto item = findItem(name);
 
 	if (item)
